@@ -1,7 +1,59 @@
 html {
   box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  background-color: #f2f2f2;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1.5rem 0;
+  text-align: left;
+}
+
+section {
+  max-width: 25em;
+  display: inline-block;
+  text-align: left;
+  padding: 0 1rem;
+}
+
+img {
+  padding: 0 1rem;
+  width: 100%;
+  max-width: 25em;
+  margin: 0;
+  display: inline-block;
+}
+
+p {
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+a,
+a:link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.4em 0.75em;
+  border: 3px solid #333;
+  border-radius: 0.4em;
+  font-size: 1.125rem;
+  color: #333;
+}
+
+a:hover {
+  background-color: #666;
+  color: #f2f2f2;
+  border: 2px solid #666;
 }
