@@ -14,35 +14,33 @@ body {
   text-align: center;
 }
 
-h1 {
+h2 {
   font-size: 1.5rem;
   font-weight: bold;
-  margin: 1.5rem 0;
+  margin: 0;
   text-align: left;
 }
 
-section {
+section div {
   max-width: 25em;
+  width: 100%;
   display: inline-block;
   text-align: left;
-  padding: 0 1rem;
+  padding: 2em 1em 0.5em;
+  vertical-align: middle;
+  margin: 0;
 }
 
 img {
-  padding: 0 1rem;
   width: 100%;
-  max-width: 25em;
-  margin: 0;
-  display: inline-block;
+  display: block;
 }
 
 p {
-  padding: 0;
   margin: 1.5rem 0;
 }
 
-a,
-a:link {
+.btn {
   display: inline-block;
   text-decoration: none;
   padding: 0.4em 0.75em;
@@ -52,7 +50,7 @@ a:link {
   color: #333;
 }
 
-a:hover {
+.btn:hover {
   background-color: #666;
   color: #f2f2f2;
   border: 2px solid #666;
